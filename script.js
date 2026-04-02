@@ -34,4 +34,12 @@ botao.addEventListener("click", function() {
 
         document.body.classList.add("modo-troll");
     }
+    else if (cliques === 8) {
+        mensagem.textContent = "Você não pode sair!";
+        botao.textContent = "SEM ESCAPATÓRIA";
+
+        msc.play();
+
+        document.body.classList.add("modo-troll");
+    }
 });
