@@ -29,16 +29,31 @@ botao.addEventListener("click", function() {
         mensagem.textContent = "Você não pode sair!";
         botao.textContent = "SEM ESCAPATÓRIA";
 
+        musica.volume = 0.1;
         musica.currentTime = 6;
         musica.play();
 
         document.body.classList.add("modo-troll");
     }
     else if (cliques === 8) {
+        musica.pause();
+        musica.currentTime = 0;
+
         mensagem.textContent = "Você não pode sair!";
         botao.textContent = "SEM ESCAPATÓRIA";
 
         msc.play();
+
+        document.body.classList.add("modo-troll");
+    }
+    else if (cliques === 9) {
+        msc.pause();
+        msc.currentTime = 0;
+
+        mensagem.textContent = "Acabou!";
+        botao.textContent = "JÁ CHEGA";
+
+        chiado.play();
 
         document.body.classList.add("modo-troll");
     }
