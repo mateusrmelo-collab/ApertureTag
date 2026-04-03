@@ -25,19 +25,17 @@ botao.addEventListener("click", function() {
     else if (cliques === 6) {
         mensagem.textContent = "Última chance...";
     } 
-    else if (cliques === 7) {
+    else if (cliques === 8) {
         mensagem.textContent = "Você não pode sair!";
         botao.textContent = "SEM ESCAPATÓRIA";
 
-        musica.volume = 0.1;
-        musica.currentTime = 6;
+        musica.volume = 0.4;
+        musica.currentTime = 7;
         musica.play();
 
         document.body.classList.add("modo-troll");
     }
-    else if (cliques === 8) {
-        musica.pause();
-        musica.currentTime = 0;
+    else if (cliques === 7) {
 
         mensagem.textContent = "Você não pode sair!";
         botao.textContent = "SEM ESCAPATÓRIA";
@@ -47,14 +45,18 @@ botao.addEventListener("click", function() {
         document.body.classList.add("modo-troll");
     }
     else if (cliques === 9) {
-        msc.pause();
-        msc.currentTime = 0;
 
         mensagem.textContent = "Acabou!";
         botao.textContent = "JÁ CHEGA";
 
-        chiado.play();
+        document.body.classList.add("modo-troll");
+    }
+    else if (cliques === 10) {
+
+        mensagem.textContent = "Acabou!";
+        botao.textContent = "Não vai mudar nada";
 
         document.body.classList.add("modo-troll");
+        document.body.classList.add("final");
     }
 });

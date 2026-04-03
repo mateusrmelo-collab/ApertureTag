@@ -192,3 +192,24 @@ a{
 .modo-troll .sub button{
     display: none;
 }
+
+.modo-troll .content{
+    background: none;
+    backdrop-filter: blur(0px);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+footer a button{
+    display: none;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.final footer a button{
+    display: flex;
+}

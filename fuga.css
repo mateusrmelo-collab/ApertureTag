@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url(eye.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo{
+    background-color: rgb(82, 12, 12);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 120px;
+    height: 400px;
+    width: 400px;
+    border-radius: 2em;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 2em;
+    border: none;
+    background-color: crimson;
+}
+
+
