@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 4px solid #007bff;
+}
+
+.logo{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: #000;
+}
+
+.sub{
+    height: 100px;
+    border-top: 4px solid #007bff;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap: 30px;
+}
+
+main{
+    background-image: url(https://i.pinimg.com/1200x/bd/6d/d0/bd6dd035704f98a92b738001110c55b8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 8px solid #007bff;
+}
+
+a button{
+    border: 1px solid #e6e6e6;
+    height: 40px;
+    width: 150px;
+    border-radius: 2em;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+    border-color: #007bff; 
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #000;
+}
+
+.box h1{
+    color: white;
+}
+
+.box p{
+    color: white;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+main{
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.modelo{
+    background: rgba(112, 147, 199, 0.6); 
+    backdrop-filter: blur(5px);
+    height: 450px;
+    width: 450px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer{
+    height: 100px;
+    background-color: #ffffff;
+    border-top: 4px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-top: 8px solid #007bff;
+}
+
+.textarea{
+    width: 350px;
+    color: white;
+    padding: 20px;
+    border-radius: 2em;
+    text-align: center;
+    background: rgba(112, 147, 199, 0.6); 
+    backdrop-filter: blur(5px); 
+}
+
+.textarea h1{
+    color: #ffffff;
+}
+
+.recursos{
+    width: 450px;
+    height: 200px;
+    color: white;
+    padding: 20px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(112, 147, 199, 0.6); 
+    backdrop-filter: blur(5px); 
+}
+
+.txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.aviso{
+    width: 450px;
+    height: 200px;
+    color: white;
+    padding: 20px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(112, 147, 199, 0.6); 
+    backdrop-filter: blur(5px); 
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card{
+    background: url(um.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    border-radius: 2em;
+    border: 1px solid black;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.slogan{
+    width: 450px;
+    height: 200px;
+    color: white;
+    padding: 20px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(112, 147, 199, 0.6); 
+    backdrop-filter: blur(5px); 
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+.tt{
+    width: 100%;
+    color: white;
+    padding: 20px;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(112, 147, 199, 0.6); 
+    backdrop-filter: blur(5px); 
+}
+
+.mods{
+    display: flex;
+}
+
+
+.mod{
+    height: 300px;
+    color: white;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(112, 147, 199, 0.6); 
+    backdrop-filter: blur(5px); 
+    margin: 5px;
+}
+
+

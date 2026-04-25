@@ -18,7 +18,7 @@ body {
   margin: 10px;
   width: 1000px;
   white-space: pre-wrap;
-  border: 1px solid #ccaa33;
+  border: 7px dashed #ccaa33;
   padding-right: 2ch;
   position: relative;
   height: 900px;
@@ -29,13 +29,22 @@ body {
 #right-col {
   width: 700px;
   height: 500px;
-  border: 1px solid #ccaa33;
+  border: 6px dashed #ccaa33;
   white-space: pre;
   margin: 10px;
   font-size: 30px;
   padding: 10px;
   display: flex;
   align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.down{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 #right-col pre{
